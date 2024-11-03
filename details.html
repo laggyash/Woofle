@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f584623432.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;lang=en" />
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>Add Your Details</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #ffeb3b; /* Yellow background */
+            color: #333; /* Dark text for readability */
+        }
+
+        /* Header part */
+        .header {
+            width: 100%;
+            height: 4.5em;
+            background: #333; /* Black header */
+            display: flex;
+            align-items: center;
+            padding: 0 1em;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+        }
+
+        .arrow {
+            color: #ffeb3b; /* Yellow icon */
+            font-size: 1.5em;
+        }
+
+        /* Heading part */
+        .post h1 {
+            padding: 1em 0;
+            text-align: center;
+            font-size: 28px;
+            color: #333; /* Dark color */
+        }
+
+        /* Main Section */
+        .main {
+            max-width: 850px;
+            margin: 2em auto;
+            border-radius: 8px;
+            background-color: #fff;
+            padding: 2em;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #333; /* Black border */
+        }
+
+        .main h3 {
+            font-size: 22px;
+            color: #333; /* Dark color */
+            margin-bottom: 0.5em;
+            font-weight: 700;
+        }
+
+        .breadcrumbs {
+            padding: 10px 0;
+            margin-bottom: 1em;
+        }
+
+        .breadcrumbs__item {
+            display: inline-block;
+        }
+
+        .breadcrumbs__item:not(:last-of-type)::after {
+            content: '/';
+            color: #333; /* Dark color */
+            margin: 0 5px;
+        }
+
+        .breadcrumbs__link {
+            text-decoration: none;
+            color: #d32f2f; /* Subtle red */
+            font-size: 14px;
+        }
+
+        .change {
+            color: #d32f2f; /* Subtle red */
+            font-size: 14px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .change:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            margin: 1.5em 0;
+            border: 1px solid #333; /* Dark */
+        }
+
+        .inner__heading {
+            margin-bottom: 1em;
+            color: #333; /* Dark color */
+        }
+
+        .inner__title {
+            font-size: 16px;
+            margin-bottom: 0.5em;
+        }
+
+        .inner__input input,
+        .inner__input select,
+        .inner__input textarea {
+            width: 100%;
+            font-size: 14px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #333; /* Dark */
+            background-color: #fff;
+            color: #333;
+        }
+
+        .inner__input textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        .inner__input input:focus,
+        .inner__input select:focus,
+        .inner__input textarea:focus {
+            outline: none;
+            border: 2px solid #d32f2f; /* Subtle red */
+        }
+
+        .inner__button button {
+            padding: 10px 20px;
+            font-size: 14px;
+            background-color: #333; /* Black */
+            color: #ffeb3b; /* Yellow */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 1em;
+        }
+
+        .inner__button button:hover {
+            background-color: #d32f2f; /* Subtle red */
+            color: #fff;
+        }
+
+        #post_btn {
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 1em;
+            font-size: 16px;
+            background-color: #333; /* Black */
+            color: #ffeb3b; /* Yellow */
+            border: none;
+            cursor: pointer;
+        }
+
+        #post_btn:hover {
+            background-color: #d32f2f; /* Subtle red */
+            color: #fff;
+        }
+
+        /* Footer part */
+        .footer {
+            height: 50px;
+            background-color: #333; /* Black */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1em;
+            color: #ffeb3b; /* Yellow */
+            font-size: 12px;
+        }
+
+        .footer div {
+            font-size: 12px;
+            letter-spacing: .8px;
+        }
+
+        .footer div:nth-child(2) {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <a href="sell.html" class="arrow"><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+
+    <!-- Heading -->
+    <div class="post">
+        <h1>Add your details</h1>
+    </div>
+
+    <!-- Main section -->
+    <div class="main">
+        <h3></h3>
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link"></a>
+            </li>
+            <a href="sell.html" class="change">Go Back</a>
+        </ul>
+        <hr>
+        <h3 class="innertext">INCLUDE SOME DETAILS</h3>
+        <form id="productForm" action="/api/save-grocery-data" method="POST" enctype="multipart/form-data">
+            <div class="inner__heading">
+                <div class="inner__title">Your Pet Name *</div>
+                <div class="inner__input">
+                    <input type="text" id="itemName" name="itemName" required>
+                </div>
+            </div>
+
+            <div class="inner__heading">
+                <div class="inner__title">Your Interest *</div>
+                <div class="inner__input">
+                    <select id="interest" name="interest" required>
+                        <option value="" disabled selected>Select an interest</option>
+                        <option value="reading_books">Reading Books</option>
+                        <option value="watching_tv">Watching TV</option>
+                        <option value="cycling">Cycling</option>
+                        <option value="scrolling">Scrolling</option>
+                        <option value="dancing">Dancing</option>
+                        <option value="singing">Singing</option>
+                        <option value="others">Others</option>
+
+                    </select>
+                </div>
+            </div>
+            
+            <hr>
+
+            <h3 class="innertext">ENTER YOUR AGE</h3>
+            <div class="inner__heading">
+                <div class="inner__title">Age *</div>
+                <div class="inner__input">
+                    <input type="number" id="price" name="price" required>
+                </div>
+            </div>
+            <hr>
+
+            <h3 class="innertext">UPLOAD YOUR PHOTO</h3>
+            <div class="inner__heading">
+                <div class="inner__title">Photo *</div>
+                <div class="inner__input">
+                    <input type="file" id="photo" name="photo" accept="image/*" required>
+                </div>
+            </div>
+            <p>This field is mandatory</p>
+
+            <hr>
+            <h3 class="innertext">REVIEW YOUR DETAILS</h3>
+            <div class="inner__heading">
+                <div class="inner__title">Name *</div>
+                <div class="inner__input">
+                    <input type="text" id="name" name="name" required>
+                </div>
+            </div>
+
+            <div class="inner__heading">
+                <div class="inner__title">Your phone number *</div>
+                <div class="inner__input">
+                    <input type="number" id="phoneNumber" name="phoneNumber" required>
+                </div>
+            </div>
+            <button id="post_btn">SUBMIT</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div>&copy; 2024 Woofle</div>
+        <div>All rights reserved</div>
+    </div>
+</body>
+
+</html>
