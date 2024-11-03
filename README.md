@@ -13,13 +13,13 @@
 - Member 3: Aswin Ajay - MITS
 
 ### Project Description
-[2-3 lines about what your project does]
+Woofle is a dog matchmaking site with a twist—matches are made purely based on the owner's details, ignoring any information about the dogs themselves!
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Woofle addresses the completely imaginary issue of “owner-dog compatibility.”
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Woofle’s "solution"? Ignore the dogs’ needs and quirks completely and use this “groundbreaking” approach to ensure owners feel reassured that their own personalities are the basis for their pet's relationships.
 
 ## Technical Details
 ### Technologies/Components Used
@@ -27,12 +27,7 @@ For Software:
 - [Languages used]
 - [Frameworks used]
 - [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Figma
 
 ### Implementation
 For Software:
