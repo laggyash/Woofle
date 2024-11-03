@@ -1,3 +1,13 @@
+@font-face {
+  font-family: And Then It Ends;  
+  src: url(src/atie.otf);
+}
+
+a:link, a:visited {
+  color: #003049;
+  text-decoration: none; 
+}
+
 .make-match-container {
     width: 100%;
     display: flex;
