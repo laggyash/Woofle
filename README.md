@@ -31,7 +31,7 @@ For Software:
 ### Implementation
 For Software:
 # Installation
-`https://github.com/laggyash/Woofle.git`
+`git clone https://github.com/laggyash/Woofle.git`
 
 # Run
 [commands]
