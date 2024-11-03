@@ -134,7 +134,8 @@ a:link, a:visited {
     left: 0px;
     width: 550.6474609375px;
     height: 712px;
-    display: flex;
+    border-radius: 30px;
+    display: flex;  
     position: absolute;
     background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
     align-items: flex-start;
@@ -148,15 +149,17 @@ a:link, a:visited {
     display: flex;
     overflow: hidden;
     position: absolute;
+    border-radius: 30px;
     align-items: flex-start;
     flex-shrink: 1;
     background-color: rgba(249, 156, 25, 1);
   }
   .make-match-unsplash-o3ymv-t7-wf9u {
-    top: -350.8514404296875px;
-    left: -155.3485107421875px;
-    width: 794px;
-    height: 1531px;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 800px;
+    align-items: center;
     position: absolute;
   }
   .make-match-text14 {
