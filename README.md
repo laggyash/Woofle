@@ -25,7 +25,7 @@ Woofle’s "solution"? Ignore the dogs’ needs and quirks completely and use th
 ### Technologies/Components Used
 For Software:
 - HTML, CSS, JavaScript
-- Nord.js
+- Node.js
 - Figma
 
 ### Implementation
@@ -34,20 +34,20 @@ For Software:
 `git clone https://github.com/laggyash/Woofle.git`
 
 # Run
-[commands]
+node app.js
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](https://github.com/laggyash/Woofle/blob/main/images/homepage.png "Home Page")
+*Woofle Homepage: Featuring the navigation bar with options like 'Home' 'Find a Match' 'About Us' and 'Login'*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](https://github.com/laggyash/Woofle/blob/main/images/Screenshot%202024-11-03%20205148.png "match")
+*Who knew your personality could fetch your dog’s perfect match? Find their new bestie here!*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](https://github.com/laggyash/Woofle/blob/main/images/Screenshot%202024-11-03%20205028.png "details")
+*Tell us about you – your details help us find their perfect match!*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
