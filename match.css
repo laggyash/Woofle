@@ -1,3 +1,8 @@
+@font-face {
+  font-family: And Then It Ends;
+  src: url(src/atie.otf);
+}
+
 .match-container {
     width: 100%;
     display: flex;
@@ -194,6 +199,7 @@
     width: 348.0215759277344px;
     height: 450px;
     display: flex;
+    border-radius: 30px;
     position: absolute;
     background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
     align-items: flex-start;
@@ -249,6 +255,7 @@
     width: 348.0215759277344px;
     height: 450px;
     display: flex;
+    border-radius: 30px;
     position: absolute;
     background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
     align-items: flex-start;
@@ -304,6 +311,7 @@
     width: 348.0215759277344px;
     height: 450px;
     display: flex;
+    border-radius: 30px;
     position: absolute;
     background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
     align-items: flex-start;
@@ -358,6 +366,7 @@
     width: 348.0215759277344px;
     height: 450px;
     display: flex;
+    border-radius: 30px;
     position: absolute;
     background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
     align-items: flex-start;
