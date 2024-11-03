@@ -1,0 +1,535 @@
+.match-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .match-match {
+    width: 100%;
+    height: 1474px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(180deg, rgba(252, 191, 73, 1) 0%, rgba(242, 174, 43, 1) 60%, rgba(227, 150, 0, 1) 100%);
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(252, 191, 73, 1);
+  }
+  .match-woofle1 {
+    top: 46px;
+    left: 46px;
+    width: 195px;
+    height: 124px;
+    position: absolute;
+  }
+  .match-group1000008679 {
+    top: 89px;
+    left: 495px;
+    width: 917px;
+    height: 38px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group1000008668 {
+    top: 0px;
+    left: 0px;
+    width: 917px;
+    height: 38px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-text10 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 33px;
+    font-style: Regular;
+    text-align: center;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-text11 {
+    left: 554px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 33px;
+    font-style: Regular;
+    text-align: center;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-text12 {
+    left: 821px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 33px;
+    font-style: Regular;
+    text-align: center;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-text13 {
+    left: 215px;
+    color: rgba(0, 48, 73, 1);
+    height: auto;
+    position: absolute;
+    font-size: 33px;
+    font-style: Regular;
+    text-align: center;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-group1000008680 {
+    top: 243px;
+    left: 120px;
+    width: 1252.0216064453125px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086741 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086691 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    border-radius: 30px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group1000008670 {
+    top: 6.474820137023926px;
+    left: 6.474771022796631px;
+    width: 335.0719299316406px;
+    height: 335.0719299316406px;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(249, 156, 25, 1);
+  }
+  .match-unsplash-o3ymv-t7-wf9u {
+    top: -171.43214416503906px;
+    left: -98.18374633789062px;
+    width: 502px;
+    height: 748px;
+    position: absolute;
+  }
+  .match-text14 {
+    top: 390.10791015625px;
+    left: 132.7337646484375px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32.37409973144531px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-group10000086771 {
+    top: 0px;
+    left: 452px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    border-radius: 30px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086751 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    border-radius: 30px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086692 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-text15 {
+    top: 390.10791015625px;
+    left: 132.7337646484375px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32.37409973144531px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-unsplash-q-xev-dflbl8a {
+    top: 9px;
+    left: 8px;
+    width: 332px;
+    height: 332px;
+    position: absolute;
+    border-radius: 35px;
+  }
+  .match-group10000086781 {
+    top: 0px;
+    left: 904px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    border-radius: 30px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086752 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086693 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-text16 {
+    top: 390.10791015625px;
+    left: 132.7337646484375px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32.37409973144531px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-download2 {
+    top: 10px;
+    left: 10px;
+    width: 332px;
+    height: 331px;
+    position: absolute;
+    border-radius: 35px;
+  }
+  .match-group1000008681 {
+    top: 809px;
+    left: 120px;
+    width: 1252.0216064453125px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086742 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    border-radius: 30px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086694 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-unsplashr-zc98i-kx-cu {
+    top: 9px;
+    left: 7px;
+    width: 332px;
+    height: 332px;
+    position: absolute;
+    border-radius: 35px;
+  }
+  .match-text17 {
+    top: 390.10791015625px;
+    left: 111.7337646484375px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32.37409973144531px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-group10000086772 {
+    top: 0px;
+    left: 452px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086753 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086695 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-text18 {
+    top: 390.10791015625px;
+    left: 109.73388671875px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32.37409973144531px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-download4 {
+    top: 9px;
+    left: 13px;
+    width: 321px;
+    height: 332px;
+    position: absolute;
+    border-radius: 30px;
+  }
+  .match-group10000086782 {
+    top: 0px;
+    left: 904px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086754 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-group10000086696 {
+    top: 0px;
+    left: 0px;
+    width: 348.0215759277344px;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 138, 15, 1) 0%, rgba(255, 131, 0, 1) 100%);
+    border-radius: 30px;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .match-text19 {
+    top: 390.10791015625px;
+    left: 132.7337646484375px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32.37409973144531px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-unsplashe-x-yu-c9k6-pc {
+    top: 10px;
+    left: 10px;
+    width: 332px;
+    height: 331px;
+    position: absolute;
+    border-radius: 30px;
+  }
+  .match-text20 {
+    top: 613px;
+    left: 256px;
+    color: rgba(255, 255, 255, 0.8299999833106995);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-text21 {
+    top: 1179px;
+    left: 256px;
+    color: rgba(255, 255, 255, 0.8299999833106995);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-text22 {
+    top: 1179px;
+    left: 706px;
+    color: rgba(255, 255, 255, 0.8299999833106995);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-text23 {
+    top: 1179px;
+    left: 1158px;
+    color: rgba(255, 255, 255, 0.8299999833106995);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-text24 {
+    top: 613px;
+    left: 706px;
+    color: rgba(255, 255, 255, 0.8299999833106995);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .match-text25 {
+    top: 613px;
+    left: 1166px;
+    color: rgba(255, 255, 255, 0.8299999833106995);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: And Then It Ends;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+  
