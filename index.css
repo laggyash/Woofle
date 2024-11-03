@@ -7,6 +7,11 @@ html {
     font-size: 16px;
   }
 
+  a:link, a:visited {
+    color: #003049;
+    text-decoration: none; 
+}
+
   body {
     font-weight: 400;
     font-family: font !important;
@@ -53,7 +58,6 @@ html {
     flex-shrink: 1;
   }
   .home-text10 {
-    color: rgba(0, 48, 73, 1);
     height: auto;
     position: absolute;
     font-size: 33px;
@@ -66,7 +70,7 @@ html {
   }
   .home-text11 {
     left: 554px;
-    color: rgba(0, 0, 0, 1);
+
     height: auto;
     position: absolute;
     font-size: 33px;
@@ -80,7 +84,6 @@ html {
   }
   .home-text12 {
     left: 821px;
-    color: rgba(0, 0, 0, 1);
     height: auto;
     position: absolute;
     font-size: 33px;
@@ -94,7 +97,6 @@ html {
   }
   .home-text13 {
     left: 215px;
-    color: rgba(0, 0, 0, 1);
     height: auto;
     position: absolute;
     font-size: 33px;
