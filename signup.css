@@ -1,8 +1,12 @@
+@font-face {
+  font-family: And Then It Ends;
+  src: url(src/atie.otf);
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: And Then It Ends;
   }
 
   body {

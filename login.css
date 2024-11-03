@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'And Then It Ends';
+    src: url(src/atie.otf);
+}
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: And Then It Ends;   
+}
+
+body {
+    background-color: #f9e07f; /* Yellow background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid #f0b429; /* Subtle yellow border */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #e76f51; /* Darker contrast color */
+    font-size: 28px;
+}
+
+label {
+    margin-top: 15px;
+    display: block;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #f0b429;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #e76f51; /* Darker focus color */
+    box-shadow: 0 0 5px rgba(231, 111, 81, 0.4);
+}
+
+p {
+    margin-top: 15px;
+    color: #333;
+}
+
+a {
+    color: #e76f51;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e76f51; /* Darker button color */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d9534f; /* Slightly darker hover color */
+}
+
+#heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#heading img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+#heading h2 {
+    font-size: 24px;
+    color: #e76f51;
+}
