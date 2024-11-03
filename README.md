@@ -31,7 +31,7 @@ For Software:
 ### Implementation
 For Software:
 # Installation
-[[commands]](https://github.com/laggyash/Woofle.git)
+`https://github.com/laggyash/Woofle.git`
 
 # Run
 [commands]
