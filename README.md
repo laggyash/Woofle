@@ -24,9 +24,8 @@ Woofle’s "solution"? Ignore the dogs’ needs and quirks completely and use th
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
+- HTML, CSS, JavaScript
+- Nord.js
 - Figma
 
 ### Implementation
