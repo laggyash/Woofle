@@ -40,7 +40,7 @@ node app.js
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots 
 ![Screenshot1](https://github.com/laggyash/Woofle/blob/main/images/homepage.png "Home Page")
 *Woofle Homepage: Featuring the navigation bar with options like 'Home' 'Find a Match' 'About Us' and 'Login'*
 
