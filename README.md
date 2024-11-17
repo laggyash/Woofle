@@ -30,7 +30,7 @@ For Software:
 - Figma
 
 ### Implementation
-For Software:
+
 # Installation
 `git clone https://github.com/laggyash/Woofle.git`
 
@@ -38,7 +38,6 @@ For Software:
 node app.js
 
 ### Project Documentation
-For Software:
 
 # Screenshots 
 ![Screenshot1](https://github.com/laggyash/Woofle/blob/main/images/homepage.png "Home Page")
@@ -49,8 +48,6 @@ For Software:
 
 ![Screenshot3](https://github.com/laggyash/Woofle/blob/main/images/Screenshot%202024-11-03%20205028.png "details")
 *Tell us about you – your details help us find their perfect match!*
-
-# Diagrams
 
 ## Team Contributions
 - Mili Mathew: Design and Development
